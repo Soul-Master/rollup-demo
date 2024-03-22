@@ -1,0 +1,12 @@
+{
+  "name": "@rollup-demo/component1",
+  "type": "module",
+  "private": "true",
+  "scripts": {
+    "pretest": "git clean -dfx ./build",
+    "test": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "3.29.4"
+  }
+}

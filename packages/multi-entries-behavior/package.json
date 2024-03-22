@@ -1,0 +1,12 @@
+{
+  "name": "@rollup-demo/multi-entries-behavior",
+  "type": "module",
+  "private": "true",
+  "scripts": {
+    "pretest": "git clean -dfx ./build",
+    "test": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "3.29.4"
+  }
+}
